@@ -6,7 +6,7 @@
 
 TecnoPeru es una landing page enfocada en la promoción y venta de un Smart TV 4K UHD Premium de 55". El sitio web presenta de manera atractiva las características y beneficios del producto, testimonios de clientes, preguntas frecuentes y un formulario de contacto para potenciales compradores.
 
-🔗 **Demo del sitio:** [https://tecnoperu-smart-tv]((https://xeditoxfyslsdhqirdmrza.on.drv.tw/producto_digital/#caracteristicas))
+🔗 **Demo del sitio:** ((https://xeditoxfyslsdhqirdmrza.on.drv.tw/producto_digital/#caracteristicas))
 
 ## ✨ Características principales
 
