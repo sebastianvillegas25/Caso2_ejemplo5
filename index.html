@@ -364,3 +364,37 @@
             </div>
         </div>
     </section>
+    <section id="contacto">
+        <div class="container">
+            <h2 class="section-title">¿Tienes preguntas sobre nuestro Smart TV?</h2>
+            <div class="contacto-content">
+                <div class="contacto-info">
+                    <p>Nuestros especialistas están disponibles para resolver todas tus dudas y asesorarte en tu compra.</p>
+                    <div class="contacto-opciones">
+                        <a href="https://wa.me/+51907023588" class="contacto-btn whatsapp">
+                            <i class="fab fa-whatsapp"></i> Contactar por WhatsApp
+                        </a>
+                        <a href="mailto:info@tecnoperu.com" class="contacto-btn email">
+                            <i class="fas fa-envelope"></i> Enviar Email
+                        </a>
+                    </div>
+                </div>
+                <form class="contacto-form" action="enviar_correo.php" method="POST">
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
