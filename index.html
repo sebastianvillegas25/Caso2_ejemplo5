@@ -397,4 +397,97 @@
             </div>
         </div>
     </section>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>TecnoPeru</h3>
+                    <p>Tecnología de última generación para tu hogar</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#caracteristicas">Características</a></li>
+                        <li><a href="#testimonios">Opiniones</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Síguenos</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TecnoPeru. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="modal-compra" class="modal">
+        <div class="modal-content">
+            <span class="cerrar-modal">&times;</span>
+            <h2>Completar tu Compra</h2>
+            <div id="producto-info">
+                <h3 id="producto-titulo"></h3>
+                <p id="producto-precio"></p>
+            </div>
+            <div class="opciones-pago">
+                <h4>Elige tu método de pago:</h4>
+                <div class="metodo-pago">
+                    <input type="radio" id="whatsapp" name="pago" value="whatsapp" checked>
+                    <label for="whatsapp">
+                        <i class="fab fa-whatsapp"></i> Coordinar pago vía WhatsApp
+                    </label>
+                </div>
+                <div class="metodo-pago">
+                    <input type="radio" id="tarjeta" name="pago" value="tarjeta">
+                    <label for="tarjeta">
+                        <i class="fas fa-credit-card"></i> Pagar con Tarjeta
+                    </label>
+                </div>
+            </div>
+            <div id="form-whatsapp" class="form-pago active">
+                <p>Te contactaremos por WhatsApp para finalizar el pago:</p>
+                <div class="form-group">
+                    <label for="nombre-whatsapp">Nombre</label>
+                    <input type="text" id="nombre-whatsapp" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefono-whatsapp">Teléfono (con código de país)</label>
+                    <input type="tel" id="telefono-whatsapp" placeholder="+51907023588" required>
+                </div>
+                <button id="btn-whatsapp" class="btn btn-accent">Contactar por WhatsApp</button>
+            </div>
+            <div id="form-tarjeta" class="form-pago">
+                <div class="form-group">
+                    <label for="numero-tarjeta">Número de Tarjeta</label>
+                    <input type="text" id="numero-tarjeta" placeholder="1234 5678 9012 3456">
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="fecha-vencimiento">Fecha de Vencimiento</label>
+                        <input type="text" id="fecha-vencimiento" placeholder="MM/AA">
+                    </div>
+                    <div class="form-group">
+                        <label for="cvv">CVV</label>
+                        <input type="text" id="cvv" placeholder="123">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="nombre-tarjeta">Nombre en la Tarjeta</label>
+                    <input type="text" id="nombre-tarjeta">
+                </div>
+                <button id="btn-tarjeta" class="btn btn-accent">Realizar Pago</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
 
